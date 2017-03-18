@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\D3DBloom.cpp">
+      <Filter>Engine\PostFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DeferredGeometryPass.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DeferredLightPass.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshAsset.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshTexture.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshTextureStore.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelImporter.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerspectiveCamera.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DDepthStencil.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DFullscreenQuad.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DRenderTarget.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DSamplerState.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DShader.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DStructuredBuffer.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DTimeBuffer.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Win32Input.cpp" />
+    <ClCompile Include="Source\MeshMaterial.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\D3DMesh.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoundingBox.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Spline.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DDevice.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DDrawArgsBuffer.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DBlendState.cpp">
+      <Filter>Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterCone.cpp">
+      <Filter>Particles\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterCube.cpp">
+      <Filter>Particles\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterSphere.cpp">
+      <Filter>Particles\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterShaders.cpp">
+      <Filter>Particles\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterBase.cpp">
+      <Filter>Particles\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystemBase.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SplineChain.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystemTextureArray.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystemSharedResources.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DFXAA.cpp">
+      <Filter>Engine\PostFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3DRenderToTexture.cpp">
+      <Filter>Engine\PostFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FireSystem.cpp">
+      <Filter>Particles\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BloodSystem.cpp">
+      <Filter>Particles\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticlePaintingPrealloc.cpp">
+      <Filter>Particles\Painting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugBoundingBox.cpp">
+      <Filter>Engine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestSystem.cpp">
+      <Filter>Particles\Examples</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\D3DBloom.h">
+      <Filter>Engine\PostFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DeferredGeometryPass.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DeferredLightPass.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshAsset.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshMaterial.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshTexture.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshTextureStore.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelImporter.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PerspectiveCamera.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DConstantBuffer.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DDepthStencil.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DFullscreenQuad.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DMesh.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DRenderTarget.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DSamplerState.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DShader.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DStructuredBuffer.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DTimeBuffer.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Win32Input.h" />
+    <ClInclude Include="Source\Precompiled.h" />
+    <ClInclude Include="Source\BoundingBox.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Spline.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DDevice.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DDrawArgsBuffer.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DBlendState.h">
+      <Filter>Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystemCounters.h">
+      <Filter>Particles\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterShape.h">
+      <Filter>Particles\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterGlobalData.h">
+      <Filter>Particles\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterCommonData.h">
+      <Filter>Particles\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Particles\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterCone.h">
+      <Filter>Particles\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterCube.h">
+      <Filter>Particles\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterSphere.h">
+      <Filter>Particles\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterShaders.h">
+      <Filter>Particles\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterBase.h">
+      <Filter>Particles\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystemBase.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SplineChain.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystemTextureArray.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystemSharedResources.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DFXAA.h">
+      <Filter>Engine\PostFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3DRenderToTexture.h">
+      <Filter>Engine\PostFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FireSystem.h">
+      <Filter>Particles\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BloodSystem.h">
+      <Filter>Particles\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticlePaintingPrealloc.h">
+      <Filter>Particles\Painting</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugBoundingBox.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestSystem.h">
+      <Filter>Particles\Examples</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{038ae556-172a-4642-8a3a-0394e51cfa43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2812c23d-8745-4efe-a1b1-7b0e1df474cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resources">
+      <UniqueIdentifier>{51ee191a-5114-413b-87f3-c93dc9751f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering">
+      <UniqueIdentifier>{274609ed-531e-444e-beaa-e07af804ea8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{5d938948-cecf-44fb-9b2b-cda6a68dea18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PostFX">
+      <UniqueIdentifier>{11cf4ba1-175b-4923-9fd7-aa529aaf0074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Structures">
+      <UniqueIdentifier>{57e1fd22-28f7-4234-ae4c-5851f850dcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Emitters">
+      <UniqueIdentifier>{91876ccb-c005-4c06-bbf6-d60e654af011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Painting">
+      <UniqueIdentifier>{fc8a956a-392b-4e5a-b005-6ce6f542e526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Examples">
+      <UniqueIdentifier>{07491e4d-9b90-40e3-96b7-0b906eb985c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Debug">
+      <UniqueIdentifier>{15dc5e98-c787-4f69-8bb5-767b1cdce4b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
