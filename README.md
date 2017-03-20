@@ -8,3 +8,11 @@ To get the example running (on Windows 10 64-bit):
 3. Copy DLLs inside "Binaries" folder to the build directory.
 4. Run executable.
 
+Things shown in the example:
+* Pressing SPACE will cause a blood effect to emit in front of the camera, painting intersecting meshes.
+* Two spline interpolated fire effects roam across the floor in the Sponza scene.
+
+Quirks and drawbacks:
+* Camera is poorly implemented, making it feel like there is frame rate drops from time to time.
+* Painting on objects with bad triangle / UV ratio will cause stretching of the applied paint.
+* Painting on objects with triangles sharing UV coordinates will cause mirroring of the applied paint.
